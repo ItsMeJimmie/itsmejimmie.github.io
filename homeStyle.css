@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Passion One', 'Courier New', Courier, monospace;
 }
 
 html {
@@ -12,21 +12,36 @@ html {
 body {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
 }
 
 header {
     background-color: #687451;
     width: 100%;
     height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+header a {
+    margin-left: 20px;
+    margin-right: 50px;
 }
 
 main {
     background-color: #FFF8E7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainSection {
+    border: red 2px solid;
 }
 
 footer {
     background-color: #687451;
-    bottom: 0;
     font-size: 22px;
     width: 100%;
 }
