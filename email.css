@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Passion One', 'Courier New', Courier, monospace;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.group form{
+    display: flex;
+    flex-direction: column;
+    
+}
