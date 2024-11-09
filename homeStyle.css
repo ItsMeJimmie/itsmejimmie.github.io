@@ -2,10 +2,38 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Passion One', 'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 html {
     scroll-behavior: smooth;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main Content Styling */
+main {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    border: red 5px solid;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
