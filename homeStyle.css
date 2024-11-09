@@ -99,7 +99,6 @@ main {
     width: 100%; /* Adjust based on preference */
     max-width: 200px; /* Limit width for a consistent size */
     margin-bottom: 10px; /* Space between image and paragraph */
-    border: 2px solid red;
     margin-top: 10px;
 }
 
