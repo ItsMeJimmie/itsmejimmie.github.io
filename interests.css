@@ -54,45 +54,7 @@ main {
     flex: 1;
     padding: 20px;
     text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.content-box {
-    display: flex;
-    justify-content: space-between;
-    width: 100%; /* Width of the inner box, adjust as needed */
-    max-width: 2000px; /* Set a max-width for larger screens */
-    background-color: #fff; /* Background color for contrast */
-    padding: 20px;
-    border-radius: 4px; /* Rounded corners */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-    border: 2px solid black; /* Optional border */
-    height: 70vh
-}
-
-.left-side, .right-side {
-    width: 49%;
-    border: 2px red solid;
-}
-
-.left-side h3 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.profile-pic {
-    width: 100%; /* Adjust based on preference */
-    max-width: 200px; /* Limit width for a consistent size */
-    margin-bottom: 10px; /* Space between image and paragraph */
-    border: 2px solid red;
-    margin-top: 10px;
-}
-
-.left-side p {
-    font-size: 1em;
-    line-height: 1.5;
+    border: red 5px solid;
 }
 
 /* Footer Styling */
