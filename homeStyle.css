@@ -82,7 +82,7 @@ main {
     border-radius: 4px; /* Rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     border: 2px solid black; /* Optional border */
-    height: 70vh
+    height: 80vh
 }
 
 .left-side, .right-side {
@@ -104,9 +104,59 @@ main {
 
 .left-side {
     display: flex;
+    width: 49%;
+    border: 2px red solid;
+}
+
+.left-column, .right-column {
+    width: 50%; /* Each column takes up half of the .left-side */
+
+}
+
+/* Style for the left column content */
+.left-column {
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
+
+/* Optional: Border around each column for visual clarity */
+.left-column, .right-column {
+    width: 50%;
+}
+
+.right-column {
+    /* You can leave this empty or add placeholder text/content if desired */
+    background-color: #f9f9f9; /* Optional background color */
+    border-left: 1px solid #ddd; /* Optional divider */
+    overflow: auto;
+    overflow-wrap: break-word;
+}
+
+/* Responsive design: Stack columns on small screens */
+@media (max-width: 768px) {
+    .left-side {
+        flex-direction: column;
+    }
+    .left-column, .right-column {
+        width: 100%;
+    }
+}
+
+.right-column p {
+    padding-top: 10px;
+}
+
+.right-side {
+    text-align: left; /* Aligns text to the right */
+    padding-top: 10px; /* Adds padding for breathing space */
+    display: flex;
+    justify-content: flex-start; /* Aligns content horizontally */
+    padding-left: 16px;
+}
+
+
+
 
 /* Footer Styling */
 footer {
