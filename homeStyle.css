@@ -61,6 +61,7 @@ main {
     background-color: #D4C9B4;
     min-height: 100vh;
     height: max-content;
+    font-size: 18px;
 }
 
 @media (max-width: 768px) {
