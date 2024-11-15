@@ -60,6 +60,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #D4C9B4;
+    min-height: 100vh;
 }
 
 @media (max-width: 768px) {
@@ -84,11 +85,12 @@ main {
     border-radius: 4px; /* Rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
     border: 2px solid #3D402F; /* Optional border */
-    height: 80vh
+    flex-wrap: wrap;
 }
 
 .left-side, .right-side {
     width: 49%;
+    flex: 1;
 }
 
 .left-side h3 {
@@ -118,6 +120,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    border-right: 1px solid #ddd;
+    margin-right: 1px;
 }
 
 /* Optional: Border around each column for visual clarity */
@@ -135,6 +139,7 @@ main {
     padding-right: 5px;
     overflow: auto;
     overflow-wrap: break-word;
+    margin-right: 1px;
 }
 
 /* Responsive design: Stack columns on small screens */
@@ -156,7 +161,7 @@ main {
     padding-top: 10px; /* Adds padding for breathing space */
     display: flex;
     justify-content: flex-start; /* Aligns content horizontally */
-    padding-left: 16px;
+    padding-left: 18px;
     border-right: 1px solid #ddd;
     border-left: 1px solid #ddd;
 }
