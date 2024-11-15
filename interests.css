@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Afacad Flux', 'Courier New', Courier, monospace;
 }
 
 html {
@@ -16,7 +16,7 @@ body {
 }
 
 header {
-    background-color: #333;
+    background-color: #3D402F;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -34,8 +34,8 @@ header {
 button {
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #444;
-    color: white;
+    background-color: #fff;
+    color: black;
     border: none;
     border-radius: 5px;
     cursor: pointer;
@@ -54,12 +54,57 @@ main {
     flex: 1;
     padding: 20px;
     text-align: center;
-    border: red 5px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D4C9B4;
+    min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+    .content-box {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-side, .right-side {
+        width: 100%;
+        margin-bottom: 20px; /* Space between the sections */
+    }
+}
+
+.content-box {
+    display: flex;
+    justify-content: space-between;
+    width: 100%; /* Width of the inner box, adjust as needed */
+    max-width: 2000px; /* Set a max-width for larger screens */
+    background-color: #fff; /* Background color for contrast */
+    padding: 20px;
+    border-radius: 4px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    border: 2px solid #3D402F; /* Optional border */
+    flex-wrap: wrap;
+}
+
+.left-side, .right-side {
+    width: 49%;
+    flex: 1;
+}
+
+.left-side h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.profile-pic {
+    width: 100%; /* Adjust based on preference */
+    max-width: 200px; /* Limit width for a consistent size */
+    margin-bottom: 10px; /* Space between image and paragraph */
+    margin-top: 10px;
 }
 
 /* Footer Styling */
 footer {
-    background-color: #333;
+    background-color: #3D402F;
     color: #fff;
     padding: 10px;
     text-align: center;
