@@ -60,6 +60,7 @@ main {
     align-items: center;
     background-color: #D4C9B4;
     min-height: 100vh;
+    height: max-content;
 }
 
 @media (max-width: 768px) {

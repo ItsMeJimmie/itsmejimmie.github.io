@@ -47,6 +47,7 @@ button:hover {
 
 a {
     text-decoration: none;
+    cursor: pointer;
 }
 
 /* Main Content Styling */
@@ -58,7 +59,7 @@ main {
     justify-content: center;
     align-items: center;
     background-color: #D4C9B4;
-    min-height: 100vh;
+    min-height: 20vh;
 }
 
 @media (max-width: 768px) {
