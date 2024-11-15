@@ -61,6 +61,7 @@ main {
     background-color: #D4C9B4;
     min-height: 100vh;
     height: max-content;
+    font-size: 20px;
 }
 
 @media (max-width: 768px) {
@@ -82,4 +83,21 @@ main {
     flex-wrap: wrap;
 }
 
+.content-box button {
+    display: inline-flex;
+    align-items: center;
+    background-color: #8f8787;
+    height: 20px;
+}
 
+.content-box button:hover {
+    background-color: #fff;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #3D402F;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
